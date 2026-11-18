@@ -5,7 +5,7 @@ body{margin:0;background:var(--sky);color:var(--ink);font:17px/1.6 -apple-system
 header{background:linear-gradient(#B7B4F3,#F59AA6 70%,#FFC98F);padding:48px 20px 72px;text-align:center;color:#1B2040;position:relative;overflow:hidden}
 header::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-60px;height:110px;background:#2A2F5A;border-radius:50% 50% 0 0}
 header h1{margin:0;font-size:34px;letter-spacing:-.02em}
-header p{margin:6px 0 0;font-size:18px}
+header p{margin:6px 0 0;font-size:18px;color:#2A2F5A}
 main{max-width:720px;margin:-24px auto 40px;padding:28px 20px;background:var(--paper);border-radius:28px;position:relative}
 h2{font-size:22px;margin:28px 0 8px}
 h3{font-size:18px;margin:20px 0 4px}
@@ -15,3 +15,11 @@ a{color:var(--accent)}
 nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:8px}
 .lang{font-size:15px}
 footer{text-align:center;color:var(--soft);font-size:14px;padding:0 20px 40px}
+footer details{max-width:720px;margin:0 auto 12px}
+footer summary{cursor:pointer;color:var(--accent)}
+.langs{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;font-size:15px}
+.langs a[aria-current]{font-weight:600;color:var(--ink);text-decoration:none}
+.langlist{list-style:none;padding:0;columns:2;column-gap:24px;font-size:18px}
+.langlist li{margin:6px 0}
+.note{font-size:14px;font-style:italic}
+[dir=rtl] ul{padding-right:1.4em;padding-left:0}
